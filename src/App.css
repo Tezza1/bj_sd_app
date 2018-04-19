@@ -1,28 +1,91 @@
-.App {
-  text-align: center;
+/* ----- MENU -----*/
+.pure-menu-horizontal {
+    background-color: #2d3e50;
+    padding: 0.7em;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10)
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.pure-menu-selected a {
+    color: white !important;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.home-menu a {
+    color: #6FBEF3;
 }
 
-.App-title {
-  font-size: 1.5em;
+.home-menu a:hover {
+    background: none;
+    border: none;
+    color: #AECFE5; 
 }
 
-.App-intro {
-  font-size: large;
+.language-option {
+    float: right;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* ----- FOOTER -----*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.footer a {
+    color: #6FBEF3;
+}
+
+.footer a:hover {
+    background: none;
+    border: none;
+    color: #AECFE5; 
+}
+
+/* HOME */
+.splash-container {
+    background: #1f8dd6;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 92%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.splash-head {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.09em;
+    border: 3px solid white;
+    padding: 3em 1.6em;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+.splash-subhead {
+    color: white;
+    letter-spacing: 0.09em;
+    opacity: 0.8;
+}
+
+.splash-button {
+    background: white !important;
+    color: #1f8dd6 !important;
+    border-radius: 5px;
+    font-size: 120%;
 }
