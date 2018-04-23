@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from '../pageLayout/header';
 
 const Visits = () => {
     return(
         <div style={{marginTop: "2em", paddingTop: "2em"}}>
-            <h1>Visits</h1>    
+            <Header 
+                engCategory={"My Client Visit"} 
+                jpnCategory={"私のクライアント訪問"} 
+                icon={<i className="fas fa-briefcase"></i>}/>
+            />   
         </div>
     );
 };

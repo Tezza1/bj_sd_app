@@ -21,7 +21,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/company/berlitz-corporation/?originalSubdomain=jp" className="pure-menu-link"><i className="fab fa-linkedin"></i></a>
                 </li>
             </ul>
-    </div>
+        </div>
     );
 };
 

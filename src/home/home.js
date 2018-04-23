@@ -7,7 +7,7 @@ const Home = () => {
             <h1 className="splash-head">Berlitz Japan Sales Builder</h1>
             <p className="splash-subhead"><i>140 years of "Speaking with Confidence".</i></p>
             <p>
-                <a href="/" className="pure-button-primary pure-button splash-button">Get Started</a>
+                <a href="/portfolio" className="pure-button-primary pure-button splash-button">Get Started</a>
             </p>
         </div>
     </div>

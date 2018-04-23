@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from '../pageLayout/header';
 
 const Articles = () => {
     return(
         <div style={{marginTop: "2em", paddingTop: "2em"}}>
-            <h1>Articles</h1>    
+            <Header 
+                engCategory={"Articles"} 
+                jpnCategory={"記事"} 
+                icon={<i className="fas fa-book"></i>}
+            />    
         </div>
     );
 };
